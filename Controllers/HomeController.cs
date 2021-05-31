@@ -36,6 +36,13 @@ namespace InClassRazor.Controllers
         {
             return View(contact);
         }
+       
+
+        public ActionResult About()
+        {
+            return View();
+        }
+       
     }
 }
     
